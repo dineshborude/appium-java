@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/appium-java-bbd-pom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/appium-java-bbd/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/appium-java-bbd/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>
