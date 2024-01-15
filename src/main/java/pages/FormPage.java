@@ -6,6 +6,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import utils.AndroidActions;
 
 public class FormPage extends AndroidActions {
@@ -34,6 +35,15 @@ public class FormPage extends AndroidActions {
     @AndroidFindBy(xpath ="//android.widget.TextView[@resource-id=\"android:id/text1\" and @text=\"Argentina\"]")
     private WebElement Argentina;
 
+    @AndroidFindBy(xpath = "//android.widget.Toast[@text=\"Please enter your name\" and @class=\"android.widget.Toast\"]")
+    private WebElement toastMessage;
+
+    public void validateToastMessage() {
+        String error = toastMessage.getText();
+        Assert.assertEquals(error,"Please enter your name");
+        System.out.println("Error Message Displayed, Assert Passed.");
+    }
+
     public void setNameField(String name) {
         nameField.sendKeys(name);
         driver.hideKeyboard();
@@ -56,6 +66,8 @@ public class FormPage extends AndroidActions {
         //Argentina.click();
         System.out.println("Country Selected : ");
     }
+
+
 
     public ProductCatalogue submitForm() {
         letsShopButton.click();

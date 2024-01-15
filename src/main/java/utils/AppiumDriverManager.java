@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import pages.FormPage;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -35,12 +36,13 @@ public class AppiumDriverManager {
 
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel7");
-        options.setApp("D://APKFiles//resources//General-Store.apk");
+        options.setApp("D://APKFiles//resources//ApiDemos-debug.apk");
 
 
         driver = new AndroidDriver(new URL(service.getUrl().toString()), options);
-
+        FormPage formPage = new FormPage(driver);
     }
+
 
 
     @AfterClass

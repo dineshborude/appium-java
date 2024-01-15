@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d010ef2-2787-4ddd-adfc-ae6c99332861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductCatalogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AndroidActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AppiumDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/FillForm_Testcase_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Preference.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WiFiSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/WiFiSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AppiumDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AppiumDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/FillForm_Testcase_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/FillForm_Testcase_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/FormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/FormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/AndroidActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AndroidActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/AppiumDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AppiumDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/FillForm_Testcase_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/FillForm_Testcase_01.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,7 @@
     "TestNG.AppiumDriverManager.clickOnPreferance.executor": "Run",
     "TestNG.AppiumDriverManager.executor": "Run",
     "TestNG.FillForm_Testcase_01.executor": "Run",
+    "TestNG.FillForm_Testcase_01.fillFormNegativeTest.executor": "Run",
     "TestNG.FillForm_Testcase_01.fillFormTest.executor": "Run",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "kotlin-language-version-configured": "true",
@@ -85,6 +81,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\New folder\appium-java\src\test" />
       <recent name="D:\New folder\appium-java\src\main" />
@@ -125,24 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumDriverManager.clickOnPreferance" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="appium-java-bbd-pom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stepdefs.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stepdefs.utils" />
-      <option name="MAIN_CLASS_NAME" value="stepdefs.utils.AppiumDriverManager" />
-      <option name="METHOD_NAME" value="clickOnPreferance" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FillForm_Testcase_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="appium-java-bbd-pom" />
       <extension name="coverage">
@@ -154,6 +135,24 @@
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.FillForm_Testcase_01" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FillForm_Testcase_01.fillFormNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="appium-java-bbd-pom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.FillForm_Testcase_01" />
+      <option name="METHOD_NAME" value="fillFormNegativeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -182,9 +181,9 @@
       <list>
         <item itemvalue="TestNG.FillForm_Testcase_01.fillFormTest" />
         <item itemvalue="TestNG.FillForm_Testcase_01" />
+        <item itemvalue="TestNG.FillForm_Testcase_01.fillFormNegativeTest" />
         <item itemvalue="TestNG.AppiumDriverManager" />
         <item itemvalue="TestNG.AppiumDriverManager (1)" />
-        <item itemvalue="TestNG.AppiumDriverManager.clickOnPreferance" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pages/FormPage.java</url>
-          <line>55</line>
+          <line>65</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
