@@ -26,9 +26,9 @@ public class AppiumDriverManager {
 
         AppiumServiceBuilder builder = new AppiumServiceBuilder();
         builder.withIPAddress("127.0.0.1");
-        builder.usingPort(4723);
+//        builder.usingPort(4723);
 
-//        builder.usingAnyFreePort();
+        builder.usingAnyFreePort();
 
         service = AppiumDriverLocalService.buildService(builder);
 
@@ -36,7 +36,7 @@ public class AppiumDriverManager {
 
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel7");
-        options.setApp("D://APKFiles//resources//ApiDemos-debug.apk");
+        options.setApp("D:\\APKFiles\\resources\\ApiDemos-debug.apk");
 
 
         driver = new AndroidDriver(new URL(service.getUrl().toString()), options);
@@ -44,8 +44,7 @@ public class AppiumDriverManager {
     }
 
 
-
-    @AfterClass
+//    @AfterClass
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
         driver.quit();

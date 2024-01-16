@@ -1,0 +1,5 @@
+pages\WiFiSettings.class
+pages\FormPage.class
+utils\AndroidActions.class
+utils\AppiumDriverManager.class
+pages\ProductCatalogue.class

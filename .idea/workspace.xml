@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d010ef2-2787-4ddd-adfc-ae6c99332861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WiFiSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/WiFiSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/WiFiSettings_Testcase_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WiFiSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WiFiSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/AppiumDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AppiumDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/FillForm_Testcase_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/FillForm_Testcase_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/FormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/FormPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/AndroidActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AndroidActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/WiFiSettings.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/AppiumDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AppiumDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/FillForm_Testcase_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/FillForm_Testcase_01.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,8 @@
     "TestNG.FillForm_Testcase_01.executor": "Run",
     "TestNG.FillForm_Testcase_01.fillFormNegativeTest.executor": "Run",
     "TestNG.FillForm_Testcase_01.fillFormTest.executor": "Run",
+    "TestNG.WiFiSettings_Testcase_02.executor": "Run",
+    "TestNG.WiFiSettings_Testcase_02.wifiSetting.executor": "Run",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/New folder/appium-java/src/main/java",
@@ -89,17 +86,17 @@
       <recent name="D:\New folder\appium-java\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FillForm_Testcase_01.fillFormTest">
+  <component name="RunManager" selected="TestNG.WiFiSettings_Testcase_02">
     <configuration name="AppiumDriverManager (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="appium-java-bbd-pom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stepdefs.utils.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stepdefs.utils" />
-      <option name="MAIN_CLASS_NAME" value="stepdefs.utils.AppiumDriverManager" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.AppiumDriverManager" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -111,29 +108,12 @@
       <module name="appium-java-bbd-pom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stepdefs.utils.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stepdefs.utils" />
-      <option name="MAIN_CLASS_NAME" value="stepdefs.utils.AppiumDriverManager" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FillForm_Testcase_01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="appium-java-bbd-pom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.FillForm_Testcase_01" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.AppiumDriverManager" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillForm_Testcase_01.fillFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WiFiSettings_Testcase_02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="appium-java-bbd-pom" />
       <extension name="coverage">
         <pattern>
@@ -168,8 +148,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.FillForm_Testcase_01" />
-      <option name="METHOD_NAME" value="fillFormTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.WiFiSettings_Testcase_02" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WiFiSettings_Testcase_02.wifiSetting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="appium-java-bbd-pom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.WiFiSettings_Testcase_02" />
+      <option name="METHOD_NAME" value="wifiSetting" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -179,8 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FillForm_Testcase_01.fillFormTest" />
-        <item itemvalue="TestNG.FillForm_Testcase_01" />
+        <item itemvalue="TestNG.WiFiSettings_Testcase_02" />
+        <item itemvalue="TestNG.WiFiSettings_Testcase_02.wifiSetting" />
         <item itemvalue="TestNG.FillForm_Testcase_01.fillFormNegativeTest" />
         <item itemvalue="TestNG.AppiumDriverManager" />
         <item itemvalue="TestNG.AppiumDriverManager (1)" />
